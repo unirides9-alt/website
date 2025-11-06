@@ -1,0 +1,218 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>unirides – Student Cab Booking</title>
+  <meta name="description" content="Safe, student‑only cab booking across US campuses. OTP login, live tracking, verified drivers." />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    :root { --brand:#2e6cff; --accent:#00c2a8; }
+    .btn-brand { background:var(--brand); color:#fff; }
+    .text-brand { color:var(--brand); }
+    .badge-accent { background:var(--accent); }
+    .hero { background:linear-gradient(135deg, #f6f9ff 0%, #ffffff 100%); }
+    .feature-icon { width:48px;height:48px;border-radius:12px;background:#eef3ff;display:flex;align-items:center;justify-content:center;font-size:24px;color:var(--brand); }
+    .app-badges img { height:40px; }
+    footer a { text-decoration:none; }
+    .screenshot { border:1px solid #edf2ff; border-radius:12px; }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-white border-bottom">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-brand" href="#">unirides</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"><span class="navbar-toggler-icon"></span></button>
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#how">How it works</a></li>
+          <li class="nav-item"><a class="nav-link" href="#safety">Safety</a></li>
+          <li class="nav-item"><a class="nav-link" href="#emails">Emails we send</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-3"><a class="btn btn-brand" href="#download">Get the app</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero py-5">
+    <div class="container py-4">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6">
+          <span class="badge badge-accent text-dark mb-2">Built for students</span>
+          <h1 class="display-5 fw-bold">Book cabs around campus in minutes</h1>
+          <p class="lead text-muted">Verified student riders, vetted drivers, upfront fares, and live GPS tracking for safer rides near your university. One‑tap OTP login and quick registration.</p>
+          <div class="d-flex gap-2 app-badges" id="download">
+            Comming soon!
+            <!-- <a href="#"><img alt="App Store" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" /></a>
+            <a href="#"><img alt="Google Play" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" /></a> -->
+          </div>
+          <div class="mt-3">
+            <small class="text-muted">Service areas: major US campuses and nearby neighborhoods.</small>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <!-- <img class="img-fluid screenshot" alt="App screenshot" src="https://via.placeholder.com/960x600.png?text=unirides+Screenshots" /> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how" class="py-5">
+    <div class="container">
+      <h2 class="h3 fw-bold mb-4">How it works</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="d-flex align-items-start gap-3">
+            <div class="feature-icon">1</div>
+            <div>
+              <h3 class="h6">Sign up</h3>
+              <p class="text-muted mb-0">Use your student email to create an account and set your profile.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="d-flex align-items-start gap-3">
+            <div class="feature-icon">2</div>
+            <div>
+              <h3 class="h6">Verify via OTP</h3>
+              <p class="text-muted mb-0">An OTP is sent instantly to confirm registration or login.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="d-flex align-items-start gap-3">
+            <div class="feature-icon">3</div>
+            <div>
+              <h3 class="h6">Book a ride</h3>
+              <p class="text-muted mb-0">Set pickup and destination, review the fare, and request a cab.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="d-flex align-items-start gap-3">
+            <div class="feature-icon">4</div>
+            <div>
+              <h3 class="h6">Track live</h3>
+              <p class="text-muted mb-0">Follow your driver on the map and share your trip with friends.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="safety" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="h3 fw-bold mb-4">Safety first</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <ul class="list-unstyled">
+            <li class="mb-3"><span class="feature-icon me-3">✔</span>Verified drivers and student profiles</li>
+            <li class="mb-3"><span class="feature-icon me-3">✔</span>Live GPS tracking and trip sharing</li>
+            <li class="mb-3"><span class="feature-icon me-3">✔</span>In‑app SOS and 24/7 support</li>
+            <li class="mb-3"><span class="feature-icon me-3">✔</span>Transparent, upfront fares</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <div class="p-4 bg-white rounded-3 border">
+            <h3 class="h6">Campus coverage</h3>
+            <p class="text-muted mb-2">Launching near select US universities and growing coverage each month.</p>
+            <p class="text-muted mb-0">Check availability in the app using your campus ZIP code.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="emails" class="py-5">
+    <div class="container">
+      <h2 class="h3 fw-bold mb-3">Emails we send (Transactional only)</h2>
+      <p class="text-muted">unirides only sends transactional messages triggered by user actions—no marketing or promotional emails.</p>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <ul class="list-unstyled">
+            <li class="mb-2">• OTP codes for login/registration</li>
+            <li class="mb-2">• Registration confirmation</li>
+            <li class="mb-2">• Ride receipts and trip summaries</li>
+            <li class="mb-2">• Critical account alerts (security)</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <div class="p-4 bg-light rounded-3 border">
+            <h3 class="h6">Email practices</h3>
+            <ul class="mb-0">
+              <li>DKIM/SPF configured on sending domain</li>
+              <li>Bounce and complaint handling via SNS/webhooks</li>
+              <li>Opt‑in and user‑initiated triggers only</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <small class="text-muted d-block mt-2">This supports SES production access for transactional mail.</small>
+    </div>
+  </section>
+
+  <section class="py-5 bg-light">
+    <div class="container">
+      <h2 class="h3 fw-bold mb-3">FAQ</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <h3 class="h6">Who can use unirides?</h3>
+          <p class="text-muted">Students at supported US universities with a valid student email.</p>
+        </div>
+        <div class="col-md-6">
+          <h3 class="h6">What areas are covered?</h3>
+          <p class="text-muted">Campus zones and nearby neighborhoods; check availability in the app.</p>
+        </div>
+        <div class="col-md-6">
+          <h3 class="h6">Do you send marketing emails?</h3>
+          <p class="text-muted">No. Emails are limited to OTP, confirmations, receipts, and critical alerts.</p>
+        </div>
+        <div class="col-md-6">
+          <h3 class="h6">How do you handle safety?</h3>
+          <p class="text-muted">Driver vetting, GPS tracking, SOS, and ride‑sharing links are built‑in.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="h3 fw-bold mb-3">Contact</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="p-4 bg-light rounded-3 border">
+            <p class="mb-1">Support: <a href="mailto:unirides9@gmail.com">unirides9@gmail.com</a></p>
+            <p class="mb-1">Legal: <a href="mailto:unirides9@gmail.com">unirides9@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <form class="p-4 bg-white rounded-3 border">
+            <div class="mb-3"><label class="form-label">Name</label><input class="form-control" type="text" placeholder="Your name" /></div>
+            <div class="mb-3"><label class="form-label">Email</label><input class="form-control" type="email" placeholder="you@example.com" /></div>
+            <div class="mb-3"><label class="form-label">Message</label><textarea class="form-control" rows="4" placeholder="How can we help?"></textarea></div>
+            <a class="btn btn-brand" href="mailto:unirides9@gmail.com?subject=Website%20Inquiry">Send via Email</a>
+            <small class="d-block text-muted mt-2">Prefer email? Write to unirides9@gmail.com.</small>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-4 border-top">
+    <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+      <p class="mb-2 mb-md-0 text-muted">© <span id="year"></span> unirides, Inc.</p>
+      <div class="d-flex gap-3">
+        <a href="/privacy.html">Privacy Policy</a>
+        <a href="/terms.html">Terms of Service</a>
+        <a href="mailto:unirides9@gmail.com">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
